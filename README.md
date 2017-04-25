@@ -1,4 +1,7 @@
-# api documentation for  [mongodb-queue (v3.1.0)](https://github.com/chilts/mongodb-queue)  [![npm package](https://img.shields.io/npm/v/npmdoc-mongodb-queue.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-mongodb-queue) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-mongodb-queue.svg)](https://travis-ci.org/npmdoc/node-npmdoc-mongodb-queue)
+# npmdoc-mongodb-queue
+
+#### basic api documentation for  [mongodb-queue (v3.1.0)](https://github.com/chilts/mongodb-queue)  [![npm package](https://img.shields.io/npm/v/npmdoc-mongodb-queue.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-mongodb-queue) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-mongodb-queue.svg)](https://travis-ci.org/npmdoc/node-npmdoc-mongodb-queue)
+
 #### Message queues which uses MongoDB.
 
 [![NPM](https://nodei.co/npm/mongodb-queue.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/mongodb-queue)
@@ -59,7 +62,8 @@
     "scripts": {
         "test": "set -e; for FILE in test/*.js; do node $FILE; done"
     },
-    "version": "3.1.0"
+    "version": "3.1.0",
+    "bin": {}
 }
 ```
 
